@@ -1,0 +1,344 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/swipe.css">
+    <title>Delicious </title>
+  </head>
+  <body>
+    <header>
+        <img src="img/menu.svg" alt="" id="menu_btn">
+        <a href="#" class="logo"><span>D</span>elicious</a>
+
+        <div class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menus</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+        </div>
+
+        <div class="icons">
+            <img src="img/search.svg" alt="" id="search_btn">
+            <img src="img/cart.svg" alt="">
+            <img src="img/user.svg" alt="" id="login_btn">
+        </div>
+
+        <form action="#" class="search_bar">
+            <input type="search" id="search_bar" placeholder="search here......">
+        </form>
+    </header>
+    
+    <div class="form flex_center" id="form">
+        <form action="login1.php" method="post">
+            <h1 class="form_close">X</h1>
+            <h3>Login</h3>
+            <label for="email">Email</label><input type="email" class="box" id="email" name="email" placeholder="Enter your email" required>
+            <label for="password">Password</label><input type="password" class="box" id="password" name="password" placeholder="Enter your Password" required>
+            <input type="submit" vlaue="Login now" class="box btn">
+            <input type="checkbox" id="remember" required>
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account?<a href="login.html">register now</a></p>
+        </form>
+    </div>
+    <section class="home" id="home">
+        <div class="home home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>order online</span>
+                        <h3>Delicious pizza</h3>
+                        <div class="btns">
+                            <a href="#order" class="btn">Order Now</a>
+                            <a href="#menu" class="btn">See Menus</a><br>
+                            <a href="login.html" class="btn">Sign up</a>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/pizza.png" width="" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="home-button-pagination flex_center"></div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <h1 class="heading">
+            <div>
+                About Us
+                <span class="line"></span>
+            </div>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="img/about.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Why People Choose Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                    quia sunt exercitationem voluptatum similique possimus nemo
+                    veritatis totam dolores est molestiae asperiores officiis commodi
+                    suscipit dolorem fuga, maiores officia numquam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                        quia sunt exercitationem voluptatum similique possimus nemo
+                        veritatis totam dolores est molestiae asperiores officiis commodi
+                        suscipit dolorem fuga, maiores officia numquam?</p> 
+                    <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h1 class="heading">
+            <div>
+                Menus
+                <span class="line"></span>
+            </div>
+        </h1>
+
+        <div class="links">
+            <ul>
+                <li><a href="#">Pizza</a></li>
+                <li><a href="#">Shushi</a></li>
+                <li><a href="#">Burger</a></li>
+                <li><a href="#">Build Your Own</a></li>
+                <li><a href="#">All Menu</a></li>
+            </ul>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="img/ice cream.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Strawberry ice cream</h4>
+                    <div class="price">$12.99</div>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/burger.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Burger</h4>
+                    <div class="price">$12.99</div>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/pizza.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Pizza</h4>
+                    <div class="price">$12.99</div>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/sushi.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Shushi</h4>
+                    <div class="price">$12.99</div>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/noodless.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Noodless</h4>
+                    <div class="price">$12.99</div>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/orange.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Orange Juice</h4>
+                    <div class="price">$12.99</div>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/choclate.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>Chocolate ice cream</h4>
+                    <div class="price">$12.99</div>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <div>
+                Reviews
+                <span class="line"></span>
+            </div>
+        </h1>
+
+        <div class="content">
+            <div class="swiper review-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide flex_center">
+                        <div class="review-img">
+                            <img src="img/person.png" width="400px" height="400px" alt="">
+                        </div>
+                        <div class="review-details">
+                            <p>
+                                If you're looking for a perfect place to enjoy a delicious meal,
+                                Aria Collins offers an unforgettable experience. From the 
+                                moment you step through the door, the warm atmosphere and friendly 
+                                staff set the stage for a pleasant dining experience. The menu features 
+                                a wide variety of options, from fresh salads to mouth-watering main courses 
+                                and decadent desserts. The quality of the food is top-notch, with every dish 
+                                being prepared using the finest ingredients. Whether you're visiting for a casual 
+                                lunch or a special dinner, [Restaurant Name] ensures a memorable experience every time. 
+                                The restaurant’s attention to detail, both in presentation and service, makes it stand 
+                                out in the competitive world of food. A must-visit for anyone in the area!
+                            </p>
+                            <h3>Aria Collins</h3>
+                            <div class="icon">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star-half.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide flex_center">
+                        <div class="review-img">
+                            <img src="img/person.png" width="400px" height="400px" alt="">
+                        </div>
+                        <div class="review-details">
+                            <p>
+                                If you're a food enthusiast seeking a place that combines exceptional 
+                                taste with a warm atmosphere, look no further than Mark Dan From the 
+                                cozy ambiance to the attentive service, every detail is thoughtfully 
+                                curated to provide guests with an outstanding dining experience. 
+                                The menu is diverse, featuring everything from savory starters to 
+                                flavorful main courses, with each dish carefully crafted to delight your 
+                                taste buds. The quality of the ingredients shines through in every bite, and 
+                                the presentation is nothing short of impressive. Whether you're dining alone, 
+                                with friends, or with family, [Restaurant Name] guarantees an experience worth 
+                                coming back for. A hidden gem that truly stands out in the culinary scene, it’s no 
+                                surprise that it’s becoming a favorite among locals. Don't miss out on this must-try 
+                                destination!
+                            </p>
+                            <h3>Mark Dan</h3>
+                            <div class="icon">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star.png" alt="">
+                                <img src="img/star-half.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="order" id="order">
+        <h1 class="heading">
+            <div>
+                Order
+                <span class="line"></span>
+            </div>
+
+        </h1>
+            <form action="#">
+                <div class="row">
+                    <div class="input">
+                        <input type="text" placeholder="Your Food Name" required class="box">
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Your Extra Food" required class="box">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input">
+                        <input type="number" placeholder="How Many" required class="box">
+                    </div>
+                    <div class="input">
+                        <input type="datetime-local" required class="box">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input">
+                        <textarea cols="30" rows="10" placeholder="Your Address" class="box"></textarea>
+                    </div>
+                    <div class="input">
+                        <textarea cols="30" rows="10" placeholder="Your Address" class="box"></textarea>
+                    </div>
+                </div>
+
+                <input type="submit" value="order Now" class="btn">
+            </form>
+        
+    </section>
+
+
+    <footer>
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#menu">menu</a>
+            <a href="#order">order</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my order</a>
+            <a href="#">my favourite</a>
+            </div>
+
+            <div class="box">
+                <h3>location</h3>
+            <a href="#">India</a>
+            <a href="#">Sri lanka</a>
+            <a href="#">Japan</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+            <a href="tel:+94742151344">078-215-1344</a><br>
+            <a href="mailto:rasanjanapraneeth@gmail.com">rasanjanapraneeth@gmail.com</a><br>
+            <a href="#">NO 381/1,Baragama east,makandura</a>
+            <img src="img/payment.png" width="250" height="100">
+            </div>
+        </div>
+
+        <div class="credit">created by <span> Praneeth Coding Studio </span> | all rights reserved</div>
+    </footer>
+
+
+
+    <script src="js/swipe.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+  </html>
